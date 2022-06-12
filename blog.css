@@ -1,0 +1,174 @@
+.panel {
+  border: 1px dotted;
+  border-color: #1d3557;
+  border-radius: 10px;
+  background-color: #effeff;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  height: 320px;
+  width: 40%;
+  z-index: 2;
+}
+
+#posts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+#blog_title {
+  margin-top: 150px;
+  color: #1d3557;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.text_post {
+  color: #1d3557;
+  font-size: medium;
+  width: 50%;
+  float: right;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.text_post a {
+  color: #ee6c4d;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.text_post h4 {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.text_post h6 {
+  padding-top: 10px;
+}
+
+.text_post p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.photo_post {
+  width: 40%;
+  float: left;
+  height: 100%;
+  position: relative;
+}
+
+.photo_post img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+#button_blog {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d3557;
+  background-color: #ee6c4d;
+  border-color: #1d3557;
+  height: 50px;
+  width: 160px;
+  background-image: -webkit-linear-gradient(left, #ee6c4d, #ffd60a);
+  margin-top: 40px;
+}
+
+#read_more {
+  padding-bottom: 40px;
+}
+
+.button_blog {
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+#button_blog:hover {
+  color: #089ff6;
+  font-weight: bold;
+}
+
+#blog_links ul li {
+  display: block;
+}
+
+.link_blog {
+  font-size: small;
+  color: #1d3557;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.link_blog:hover {
+  color: #089ff6;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .panel {
+    width: 85%;
+    height: 440px;
+    line-height: 1.2;
+  }
+
+  .text_post {
+    margin: auto;
+  }
+
+  .text_post h6 {
+    padding-top: 20px;
+  }
+
+  .text_post h4 {
+    padding-top: 20px;
+  }
+
+  .text_post p {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .photo_post img {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  /* For tablets: */
+
+  .panel {
+    width: 600px;
+    height: 320px;
+  }
+
+  .text_post h6 {
+    padding-top: 10px;
+  }
+
+  .text_post h4 {
+    padding-top: 20px;
+  }
+
+  .text_post p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,333 @@
+#details {
+  width: 80%;
+  text-align: justify;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: auto;
+  font-size: 36px;
+  line-height: 1.8;
+  display: flex;
+}
+
+#details h2 {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+  color: #1d3557;
+}
+
+#details p {
+  text-align: justify;
+}
+
+.details {
+  justify-content: space-between;
+  width: 50%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#picture_1 {
+  width: 40%;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+#follow_me {
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: #1d3557;
+  background-color: #effeff;
+  height: 60px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 60px;
+  box-shadow: 10px 10px 5px;
+  display: flex;
+}
+
+.follow {
+  width: 33%;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#logos {
+  width: 80%;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  color: #1d3557;
+  margin: auto;
+}
+
+.logo {
+  padding-top: 20px;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.logo h3 {
+  padding-bottom: 20px;
+}
+
+#technologies {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  display: block;
+  padding-top: 60px;
+  line-height: 1.8;
+  font-size: 24px;
+}
+
+#technologies h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#contact {
+  text-align: center;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+#information {
+  background-color: #98c1d9;
+  border-top: 5px solid;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#button {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d3557;
+  background-color: #ee6c4d;
+  border-color: #1d3557;
+  height: 40px;
+  width: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: -webkit-linear-gradient(left, #ee6c4d, #ffd60a);
+}
+
+#button:hover {
+  color: #089ff6;
+  font-weight: bold;
+}
+
+#enter_message {
+  border-radius: 10px;
+  border-color: #1d3557;
+  height: 20px;
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contact_button h1 {
+  font-size: 28px;
+  padding: 20px;
+}
+
+.contact_button {
+  padding-bottom: 20px;
+}
+
+#contact h2 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+#contact p {
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #details {
+    font-size: 18px;
+  }
+
+  #details h2 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .details {
+    width: 50%;
+  }
+
+  #picture_1 img {
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+  }
+
+  #picture_1 {
+    padding-top: 40px;
+    margin: auto;
+    padding-left: 0;
+  }
+
+  #left_part p {
+    padding-bottom: 20px;
+  }
+
+  .follow img {
+    width: 40px;
+  }
+
+  #follow_me {
+    height: 40px;
+    width: 180px;
+    margin: auto;
+    float: left;
+  }
+
+  #technologies {
+    padding-top: 30px;
+  }
+
+  #technologies h2 {
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+
+  #technologies p {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+
+  #logos {
+    font-size: small;
+    padding-top: 20px;
+    width: 95%;
+  }
+
+  .logo img {
+    width: 40px;
+  }
+
+  .logo h3 {
+    padding-bottom: 20px;
+  }
+
+  .contact_button h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+
+  .contact_button {
+    padding-bottom: 20px;
+  }
+
+  #contact h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+
+  #contact p {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #details {
+    font-size: 30px;
+  }
+
+  #details h2 {
+    font-size: 30px;
+  }
+
+  .details {
+    width: 50%;
+  }
+
+  #picture_1 img {
+    width: 300px;
+    padding-left: 50px;
+  }
+
+  #picture_1 {
+    padding-top: 40px;
+    margin: auto;
+    padding-left: 0;
+  }
+
+  #left_part p {
+    padding-bottom: 20px;
+  }
+
+  .follow img {
+    width: 40px;
+  }
+
+  #follow_me {
+    height: 40px;
+    width: 180px;
+    margin: auto;
+    float: left;
+  }
+
+  #technologies {
+    padding-top: 30px;
+  }
+
+  #technologies h2 {
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+
+  #logos {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .logo h3 {
+    padding: 20px;
+  }
+
+  #contact h2 {
+    padding: 10px;
+  }
+
+  #contact p {
+    padding: 20px;
+  }
+
+  .contact_button h1 {
+    font-size: 28px;
+    padding: 20px;
+  }
+
+  .contact_button {
+    padding-bottom: 20px;
+  }
+}
