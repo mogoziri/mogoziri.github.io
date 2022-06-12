@@ -1,3 +1,4 @@
+/* Blog post (text and graphical component) */
 .panel {
   border: 1px dotted;
   border-color: #1d3557;
@@ -72,7 +73,7 @@
   border-radius: 10px;
   border: 1px solid;
 }
-
+/* Link to more posts (graphical component) */
 #button_blog {
   border-radius: 10px;
   font-size: 20px;
@@ -101,6 +102,7 @@
   font-weight: bold;
 }
 
+/* List of posts (text component) */
 #blog_links ul li {
   display: block;
 }

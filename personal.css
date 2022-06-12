@@ -1,3 +1,4 @@
+/* Personal information (text component) */
 #main_personal {
   display: flex;
   width: 80%;
@@ -30,6 +31,18 @@
   padding-bottom: 20px;
 }
 
+#irina_1 {
+  width: 60%;
+  text-align: justify;
+  padding-left: 80px;
+  margin: auto;
+}
+
+#irina_1 p {
+  padding-top: 20px;
+}
+
+/* Photo object (graphical component) */
 #irina_img {
   border: 1px solid;
   border-color: #1d3557;
@@ -40,17 +53,6 @@
 #irina {
   width: 30%;
   padding-top: 30px;
-}
-
-#irina_1 {
-  width: 60%;
-  text-align: justify;
-  padding-left: 80px;
-  margin: auto;
-}
-
-#irina_1 p {
-  padding-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
